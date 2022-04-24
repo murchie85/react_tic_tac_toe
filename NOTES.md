@@ -27,5 +27,6 @@ class ShoppingList extends React.Component {
   }
 }
 
-// Example usage: <ShoppingList name="Mark" />
-```
+```  
+  
+- Longer way of defining say `<li>` would be to use `createElement()`  method which is bulky and long.  
