@@ -37,6 +37,12 @@ class ShoppingList extends React.Component {
 
 
 
+## COMMON MISTAKES 
+
+Notice how with `onClick={() => console.log('click')}`, we’re passing a function as the onClick prop. 
+React will only call this function after a click.  
+Forgetting `() =>` and writing` onClick={console.log('click')}` is a common mistake, and would fire **every time** the component re-renders.
+
 
 
 # Getting Started with Create React App
