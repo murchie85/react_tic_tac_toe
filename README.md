@@ -35,6 +35,40 @@ class ShoppingList extends React.Component {
 - Longer way of defining say `<li>` would be to use `createElement()`  method which is bulky and long.  
 
 
+## STATE 
+  
+React components can have `state` by setting `this.state` in their constructors. `this.state` should be considered as private to a React component that it’s defined in.   
+  
+IN THE TUTORIA; Let’s store the current value of the Square in this.state, and change it when the Square is clicked.
+
+
+## SUPER 
+
+In JavaScript classes, you need to always call `super` when defining the `constructor` of a subclass.  
+**All React component classes that have a constructor should start with a super(props) call**
+  
+EXAMPLE BELOW:  
+  
+```javascript
+// constrcutor in question
+class Square extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: null,
+    };
+  }
+
+
+  render() {
+    return (
+      <button className="square" onClick={() => console.log('click')}>
+        {this.props.value}
+      </button>
+    );
+  }
+}
+```
 
 
 ## COMMON MISTAKES 
