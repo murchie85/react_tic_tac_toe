@@ -1,6 +1,7 @@
 # REACT LEARNING NOTES 
 
 [Jump to getting started notes](#Getting-Started-with-Create-React-App)
+[MY NOTES](#MY-NOTES)
 
 
 Using the main react [Tutorial](https://reactjs.org/tutorial/tutorial.html)
@@ -149,3 +150,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+
+## MY NOTES
+
+- React is all about small modular components that call others
